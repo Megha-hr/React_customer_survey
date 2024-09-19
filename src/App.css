@@ -1,0 +1,116 @@
+/*welcome page style*/
+.welcome{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center;
+  background: url(' /shubham-dhage-pb5w9WU1goA-unsplash.jpg') no-repeat fixed ;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+}
+.welcome h1{
+  color:antiquewhite;
+}
+.welcome button{
+  width: 100%;
+  max-width: 150px;
+  height: 40px;
+  padding: 10px 20px;
+  background-color: #f0f0f0;
+  color: black;
+  border: none;
+  margin: 10px;
+  cursor: pointer;
+}
+a{
+  text-decoration: none;
+}
+/*survey page style*/
+.container{
+  display: flex;
+    align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+background: linear-gradient(45deg,  #b8e1fc 0%,#a9d2f3 10%,#90bae4 25%,#90bcea 37%,#90bff0 50%,#6ba8e5 51%,#a2daf5 83%,#bdf3fd 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+}
+
+.confirmation-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background: white;
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.modal-content button {
+  margin: 10px;
+  padding: 10px;
+  cursor: pointer;
+}
+.next-button{width: 100%;
+  max-width: 150px;
+  height: 40px;
+  padding: 10px 20px;
+  background-color: #f0f0f0;
+  color: black;
+  border: none;
+  margin-top: var(--margin-top);
+  align-self: flex-end;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.next-button:hover {
+  background-color: #dddddd;
+  color: black;
+}
+
+.prev-button {
+  width: 100%;
+  max-width: 150px;
+  height: 40px;
+  padding: 10px 20px;
+  background-color: #f0f0f0;
+  color: black;
+  border: none;
+  margin: 10px;
+  align-self: flex-start;
+  cursor: pointer;
+}
+.prev-button:hover {
+  background-color: #dddddd;
+  color: black;
+}
+.skip-button{
+  width: 100%;
+  max-width: 150px;
+  height: 40px;
+  padding: 10px 20px;
+  background-color: #f0f0f0;
+  color: black;
+  border: none;
+  margin: 10px;
+  cursor: pointer;
+}
+.button-container {
+  width: 100%;
+  max-width: 300;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
